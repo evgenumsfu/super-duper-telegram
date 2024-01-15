@@ -49,7 +49,7 @@
             </form>
         </td>
         <td>
-            <form class="mb-2" th:action="@{/delete}" th:method="GET">
+            <form class="mb-2" th:action="@{/delete}" th:method="Delete">
                 <input type="hidden" name="id" th:value="${user.getId()}">
                 <button class="btn btn-outline-danger bi-trash3" type="submit">Remove
                 </button>
